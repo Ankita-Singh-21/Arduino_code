@@ -12,7 +12,7 @@ Serial.begin(9600);
  
 void loop() {
 if(Serial.available()){
-  t = Serial.read();
+  t = Serial.read();          // only this much communication is needed
   Serial.println(t);
 }
  
